@@ -7,6 +7,8 @@
 }
 /* Endutility */
 
+
+/* Banner */
 .background_color{
     background-color: var(--banner);
 }
@@ -15,3 +17,26 @@
     height: 50px;
     background-color: aquamarine;
 }
+/* EndBanner */
+
+/* Bootstrap */
+.boot_strap{
+    background-color: var(--primary);
+}
+
+.boot_strap .debug{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: auto;
+}
+/* EndBootstrap */
+
+/* portfolio */
+.debug{
+    background-color: red;
+  
+}
+
+
+/* EndPortfolio */
