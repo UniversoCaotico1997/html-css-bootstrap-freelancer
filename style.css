@@ -41,9 +41,17 @@
 
 
 /* EndPortfolio */
+
+
 /* About */
 .about{
     background-color: var(--primary);
 }
 
 /* EndAbout */
+
+/* contact */
+.contact{
+    background-color: var(--banner);
+}
+/* endcontact */
