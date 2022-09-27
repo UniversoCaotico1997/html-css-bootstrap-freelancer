@@ -5,6 +5,9 @@
     --white:#FFFFFF;
     --banner:#3A546D;
 }
+.card_size{
+    width: 18rem; 
+}
 /* Endutility */
 
 
