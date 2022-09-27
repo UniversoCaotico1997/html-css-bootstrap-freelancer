@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap freelancer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
   <body>
     <header id="site_header">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid container-sm container-md text-uppercase text_color">
+      <nav class="navbar navbar-expand-md">
+        <div class="container-fluid container-sm container-md text-uppercase">
           <a class="navbar-brand" href="#">Start Bootstrap</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -34,8 +35,19 @@
    
   <main id="site_main">
     <section class="boot_strap">
-      <div class="container-fluid">
-        <div class="debug"></div>
+      <div class="container-fluid d-flex justify-content-center">
+        <div class="card pt-5 border-0 img_body_color " style="width: 18rem;">
+          <img src="./img/avatar.svg" class="card-img-top" alt="...">      
+          <div class="card-body text-white text-uppercase">
+            <h1 class="card-title">Start Bootstrap</h1>
+            <div class="box d-flex align-items-center  justify-content-center">
+              <div class="vertical_line"></div>  
+              <span><i class="fa-solid fa-star px-4"></i></span>
+              <div class="vertical_line"></div>
+            </div>                                  
+            <h3 class="card-text">Graphic - Web Designer - Illustrator</h3>
+          </div>
+        </div>
       </div>
       <!-- /.container -->
     </section>
@@ -44,18 +56,49 @@
     <section class="portfolio">
       <div class="container-fluid container-sm container-md p-3">
         <div class="row gy-3">
-         
-          <div class="col-12 col-sm-6 col-md-4 debug"></div>
+          <div class="text-center text-uppercase">
+            <h1>Portfolio</h1>
+            <div class="box d-flex align-items-center justify-content-center ">
+              <div class="vertical_line bg-black"></div>  
+              <span><i class="fa-solid fa-star px-4 "></i></span>
+              <div class="vertical_line bg-black"></div>
+            </div>                     
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+              <img src="./img/cabin.png" class="card-img-top" alt="...">
+            </div>
+          </div>
           <!-- /.col -->
-          <div class="col-12 col-sm-6 col-md-4 debug"></div>
+          <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+              <img src="./img/cake.png" class="card-img-top" alt="...">
+            </div>
+          </div>
           <!-- /.col -->
-          <div class="col-12 col-sm-6 col-md-4 debug"></div>
+          <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+              <img src="./img/circus.png" class="card-img-top" alt="...">
+            </div>
+          </div>
           <!-- /.col -->
-          <div class="col-12 col-sm-6 col-md-4 debug"></div>
+          <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+              <img src="./img/game.png" class="card-img-top" alt="...">
+            </div>
+          </div>
           <!-- /.col -->
-          <div class="col-12 col-sm-6 col-md-4 debug"></div>
+          <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+              <img src="./img/safe.png" class="card-img-top" alt="...">
+            </div>
+          </div>
           <!-- /.col -->
-          <div class="col-12 col-sm-6 col-md-4 debug"></div>
+          <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+              <img src="./img/submarine.png" class="card-img-top" alt="...">
+            </div>
+          </div>
           <!-- /.col -->
         </div>
         <!-- /.row -->
@@ -79,7 +122,7 @@
     </section>
     <!-- /.about -->
 
-    <section class="call_to_action">
+    <section class="contact">
       <div class="container-fluid container-sm container-md p-3">
         <div class="row gy-3">
           <div class="col-12 debug"></div>
@@ -91,9 +134,14 @@
       </div>
       <!-- /.container -->
     </section>
-    <!-- /.call to action -->
+    <!-- /.contact -->
 
-    <section class="contact">
+  </main>
+  <!-- /#site_main -->
+
+  <footer id="site_footer">
+   
+    <section class="social">
       <div class="container-fluid container-sm container-md p-3">
        <div class="row gy-3">
         <div class="col-12 col-sm-4 col-md-4 debug"></div>
@@ -107,11 +155,8 @@
       </div>
       <!-- /.container -->
     </section>
-    <!-- /.contact -->
-  </main>
-  <!-- /#site_main -->
+    <!-- /.social -->
 
-  <footer id="site_footer">
     <section class="copiright">
       <div class="container-fluid p-3"></div>
         <!-- /.row -->

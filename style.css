@@ -12,21 +12,20 @@
 #site_header{
     background-color: var(--banner);
 }
-.text_color{
-    color: var(--white);
-}
+
 /* EndBanner */
 
 /* Bootstrap */
 .boot_strap{
     background-color: var(--primary);
 }
-
-.boot_strap .debug{
-    width: 300px;
-    height: 300px;
-    background-color: black;
-    margin: auto;
+.vertical_line{
+    width: 150px;
+    height: 5px;
+    background-color:var(--white);
+}
+.img_body_color{
+    background-color: var(--primary);
 }
 /* EndBootstrap */
 
@@ -48,7 +47,7 @@
 
 
 /* contact */
-.contact{
+.social{
     background-color: var(--banner);
 }
 /* endcontact */
