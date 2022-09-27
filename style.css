@@ -9,13 +9,11 @@
 
 
 /* Banner */
-.background_color{
+#site_header{
     background-color: var(--banner);
 }
-.top_banner .row .debug{
-    width: 200px;
-    height: 50px;
-    background-color: aquamarine;
+.text_color{
+    color: var(--white);
 }
 /* EndBanner */
 
