@@ -22,7 +22,7 @@
 .vertical_line{
     width: 150px;
     height: 5px;
-    background-color:var(--white);
+    background-color: var(--white);
 }
 .img_body_color{
     background-color: var(--primary);
