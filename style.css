@@ -42,6 +42,11 @@
 .about{
     background-color: var(--primary);
 }
+.btn_primary{
+    background-color: var(--primary);
+    border: 1px solid white;
+    color: white;
+}
 /* EndAbout */
 
 

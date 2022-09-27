@@ -113,14 +113,14 @@
 
     <section class="about">
       <div class="container-fluid container-sm container-md">
-        <div class="row">
+        <div class="row text-white">
           
           <div class="text-center text-uppercase pt-5 pb-3">
             <h1>About</h1>
             <div class="box d-flex align-items-center justify-content-center ">
-              <div class="vertical_line bg-black"></div>  
+              <div class="vertical_line"></div>  
               <span><i class="fa-solid fa-star px-4 "></i></span>
-              <div class="vertical_line bg-black"></div>
+              <div class="vertical_line"></div>
             </div>                     
           </div>
            
@@ -142,6 +142,11 @@
             </p>
           </div>
           <!-- /.col -->
+          <div class="box d-flex align-items-center justify-content-center pt-5 pb-3 py-sm-5">
+            <button type="button" class="btn btn_primary"><i class="fa-solid fa-download"></i>Download</button>
+          </div>
+          
+          <!-- /.button-->
         </div>
         <!-- /.row -->
       </div>
@@ -150,14 +155,39 @@
     <!-- /.about -->
 
     <section class="contact">
-      <div class="container-fluid container-sm container-md p-3">
-        <div class="row gy-3">
-          <div class="col-12 debug"></div>
-          <!-- /.col -->
-          <div class="col-12 debug"></div>
-          <!-- /.col -->
-        </div>
-        <!-- /.row -->
+      <div class="container-fluid container-sm container-md py-3">
+          <div class="text-center text-uppercase pt-5 pb-3">
+            <h1>Contact Me</h1>
+            <div class="box d-flex align-items-center justify-content-center ">
+              <div class="vertical_line bg-black"></div>  
+              <span><i class="fa-solid fa-star px-4 "></i></span>
+              <div class="vertical_line bg-black"></div>
+            </div>                     
+          </div>
+          <div class="box d-flex align-items-center justify-content-center ">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Name</label>
+                <input type="email" class="form-control rounded-0 border-0 border-bottom" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Email address</label>
+                <input type="password" class="form-control rounded-0 border-0 border-bottom" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Phone Number</label>
+                <input type="password" class="form-control rounded-0 border-0 border-bottom" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Message</label>
+                <input type="password" class="form-control rounded-0 border-0 border-bottom" id="exampleInputPassword1">
+              </div>
+              <button type="submit" class="btn btn_primary">Send</button>
+            </form>
+          </div>
+
+          
+       
       </div>
       <!-- /.container -->
     </section>
