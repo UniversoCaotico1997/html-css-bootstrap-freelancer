@@ -5,8 +5,8 @@
     --white:#FFFFFF;
     --banner:#3A546D;
 }
-.card_size{
-    width: 18rem; 
+img{
+    max-width: 100%;
 }
 /* Endutility */
 
@@ -19,7 +19,7 @@
 /* EndBanner */
 
 /* Bootstrap */
-.boot_strap{
+.jumbotron{
     background-color: var(--primary);
 }
 .vertical_line{
